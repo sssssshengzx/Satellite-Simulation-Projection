@@ -56,12 +56,12 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MoveOnPCController.cs" />
     <Compile Include="Assets\Nebula Pack\Skybox Dark Nebula\Scripts\SmoothCameraOrbit.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.2.0\Starter Assets\Scripts\DynamicMoveProvider.cs" />
     <Compile Include="Assets\Nebula Pack\Skybox Purple Nebula\scripts\MouseLook.cs" />
     <Compile Include="Assets\Samples\XR Interaction Toolkit\2.2.0\Starter Assets\Scripts\ActionBasedControllerManager.cs" />
+    <Compile Include="Assets\Scripts\MoveOnPCController.cs" />
     <Compile Include="Assets\Scripts\CameraSwitcher.cs" />
-    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.2.0\Starter Assets\Scripts\DynamicMoveProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
