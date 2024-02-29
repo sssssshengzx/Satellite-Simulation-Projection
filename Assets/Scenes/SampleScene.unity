@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0011686482, g: 0.016521316, b: 0.016544413, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2337,6 +2337,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 603983994}
     m_Modifications:
+    - target: {fileID: 2714489902528000820, guid: e4c427cc114ffc741b1e7f03e507ede9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+    - target: {fileID: 3743356627547524605, guid: e4c427cc114ffc741b1e7f03e507ede9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 6305002995646459884, guid: e4c427cc114ffc741b1e7f03e507ede9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2401,5 +2409,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: robot
       objectReference: {fileID: 0}
+    - target: {fileID: 7725310187155558533, guid: e4c427cc114ffc741b1e7f03e507ede9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4c427cc114ffc741b1e7f03e507ede9, type: 3}
