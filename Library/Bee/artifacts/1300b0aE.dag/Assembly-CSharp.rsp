@@ -412,6 +412,7 @@
 "Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Scripts/DynamicMoveProvider.cs"
 "Assets/Scripts/CameraSwitcher.cs"
 "Assets/Scripts/MoveOnPCController.cs"
+"Assets/Scripts/WalkDemonstrateTest.cs"
 -langversion:9.0
 
 /deterministic

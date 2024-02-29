@@ -76,6 +76,7 @@
     <Compile Include="Assets\Procedural Walk Animation\Scripts\RTS_Movement\RTSMovment.cs" />
     <Compile Include="Assets\Procedural Walk Animation\Scripts\RTS_Movement\MouseWorld.cs" />
     <Compile Include="Assets\Procedural Walk Animation\Scripts\procedural animation\proceduralAnimation.cs" />
+    <Compile Include="Assets\Scripts\WalkDemonstrateTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Procedural Walk Animation\TextMesh Pro\Shaders\TMPro.cginc" />

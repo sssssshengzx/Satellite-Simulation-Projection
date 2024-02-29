@@ -939,6 +939,10 @@ PrefabInstance:
       propertyPath: refreshTimingRate
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 860901264852222967, guid: 61eeea681eaea4f49809995d874f0a8e, type: 3}
+      propertyPath: SetTimingsManually
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61eeea681eaea4f49809995d874f0a8e, type: 3}
 --- !u!1 &828417800 stripped
@@ -946,7 +950,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 519005712464895889, guid: 61eeea681eaea4f49809995d874f0a8e, type: 3}
   m_PrefabInstance: {fileID: 828417799}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &828417801
+--- !u!114 &828417803
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -955,7 +959,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 828417800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a0386537f6dc7c4682742e15f71ec07, type: 3}
+  m_Script: {fileID: 11500000, guid: 560809dd53fe0f742a868bb53b1edc5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
