@@ -56,104 +56,32 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Plugin\PXR_EnterpriseTools.cs">
-      <Link>Enterprise\Scripts\Plugin\PXR_EnterpriseTools.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PICOCastOptionValueEnum.cs">
-      <Link>Enterprise\Scripts\Enums\PICOCastOptionValueEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PicoCastMediaFormat.cs">
-      <Link>Enterprise\Scripts\Enums\PicoCastMediaFormat.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\SystemInfoEnum.cs">
-      <Link>Enterprise\Scripts\Enums\SystemInfoEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\SwitchEnum.cs">
-      <Link>Enterprise\Scripts\Enums\SwitchEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PowerOnOffLogoEnum.cs">
-      <Link>Enterprise\Scripts\Enums\PowerOnOffLogoEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Struct\RGBCameraStruct.cs">
-      <Link>Enterprise\Scripts\Struct\RGBCameraStruct.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\HomeEventEnum.cs">
-      <Link>Enterprise\Scripts\Enums\HomeEventEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\SleepDelayTimeEnum.cs">
-      <Link>Enterprise\Scripts\Enums\SleepDelayTimeEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\HomeFunctionEnum.cs">
-      <Link>Enterprise\Scripts\Enums\HomeFunctionEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PackageControlEnum.cs">
-      <Link>Enterprise\Scripts\Enums\PackageControlEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Plugin\PXR_SystemPlugin.cs">
-      <Link>Enterprise\Scripts\Plugin\PXR_SystemPlugin.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\ControllerKeyEnum.cs">
-      <Link>Enterprise\Scripts\Enums\ControllerKeyEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\BoolCallback.cs">
-      <Link>Enterprise\Scripts\Interfaces\BoolCallback.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PoseErrorTypeEnum.cs">
-      <Link>Enterprise\Scripts\Enums\PoseErrorTypeEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Model\WifiDisplayModel.cs">
-      <Link>Enterprise\Scripts\Model\WifiDisplayModel.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\IntCallback.cs">
-      <Link>Enterprise\Scripts\Interfaces\IntCallback.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\BindCallback.cs">
-      <Link>Enterprise\Scripts\Interfaces\BindCallback.cs</Link>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\StartVRSettingsEnum.cs">
+      <Link>Enterprise\Scripts\Enums\StartVRSettingsEnum.cs</Link>
     </Compile>
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\ScreencastAudioOutputEnum.cs">
       <Link>Enterprise\Scripts\Enums\ScreencastAudioOutputEnum.cs</Link>
     </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\FileCopyCallback.cs">
-      <Link>Enterprise\Scripts\Interfaces\FileCopyCallback.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\StartVRSettingsEnum.cs">
-      <Link>Enterprise\Scripts\Enums\StartVRSettingsEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\LongCallback.cs">
-      <Link>Enterprise\Scripts\Interfaces\LongCallback.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\ControllerPairTimeEnum.cs">
-      <Link>Enterprise\Scripts\Enums\ControllerPairTimeEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\MarkerInfoCallback.cs">
-      <Link>Enterprise\Scripts\Interfaces\MarkerInfoCallback.cs</Link>
-    </Compile>
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\WifiDisplayModelCallback.cs">
       <Link>Enterprise\Scripts\Interfaces\WifiDisplayModelCallback.cs</Link>
     </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\DeviceControlEnum.cs">
-      <Link>Enterprise\Scripts\Enums\DeviceControlEnum.cs</Link>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\IntCallback.cs">
+      <Link>Enterprise\Scripts\Interfaces\IntCallback.cs</Link>
     </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\PXR_Enterprise.cs">
-      <Link>Enterprise\Scripts\PXR_Enterprise.cs</Link>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\SleepDelayTimeEnum.cs">
+      <Link>Enterprise\Scripts\Enums\SleepDelayTimeEnum.cs</Link>
     </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Plugin\PXR_EnterprisePlugin.cs">
-      <Link>Enterprise\Scripts\Plugin\PXR_EnterprisePlugin.cs</Link>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\ControllerKeyEnum.cs">
+      <Link>Enterprise\Scripts\Enums\ControllerKeyEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Model\WifiDisplayModel.cs">
+      <Link>Enterprise\Scripts\Model\WifiDisplayModel.cs</Link>
     </Compile>
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\USBConfigModeEnum.cs">
       <Link>Enterprise\Scripts\Enums\USBConfigModeEnum.cs</Link>
     </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PICOCastOptionOrStatusEnum.cs">
-      <Link>Enterprise\Scripts\Enums\PICOCastOptionOrStatusEnum.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Model\MarkerInfo.cs">
-      <Link>Enterprise\Scripts\Model\MarkerInfo.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\StringCallback.cs">
-      <Link>Enterprise\Scripts\Interfaces\StringCallback.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\SystemFunctionSwitchEnum.cs">
-      <Link>Enterprise\Scripts\Enums\SystemFunctionSwitchEnum.cs</Link>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\LongCallback.cs">
+      <Link>Enterprise\Scripts\Interfaces\LongCallback.cs</Link>
     </Compile>
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PICOCastUrlTypeEnum.cs">
       <Link>Enterprise\Scripts\Enums\PICOCastUrlTypeEnum.cs</Link>
@@ -161,8 +89,80 @@
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\CustomizeSettingsTabEnum.cs">
       <Link>Enterprise\Scripts\Enums\CustomizeSettingsTabEnum.cs</Link>
     </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\HomeFunctionEnum.cs">
+      <Link>Enterprise\Scripts\Enums\HomeFunctionEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\BindCallback.cs">
+      <Link>Enterprise\Scripts\Interfaces\BindCallback.cs</Link>
+    </Compile>
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\ScreenOffDelayTimeEnum.cs">
       <Link>Enterprise\Scripts\Enums\ScreenOffDelayTimeEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\PXR_Enterprise.cs">
+      <Link>Enterprise\Scripts\PXR_Enterprise.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Plugin\PXR_EnterprisePlugin.cs">
+      <Link>Enterprise\Scripts\Plugin\PXR_EnterprisePlugin.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Model\MarkerInfo.cs">
+      <Link>Enterprise\Scripts\Model\MarkerInfo.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\StringCallback.cs">
+      <Link>Enterprise\Scripts\Interfaces\StringCallback.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\DeviceControlEnum.cs">
+      <Link>Enterprise\Scripts\Enums\DeviceControlEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PicoCastMediaFormat.cs">
+      <Link>Enterprise\Scripts\Enums\PicoCastMediaFormat.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\FileCopyCallback.cs">
+      <Link>Enterprise\Scripts\Interfaces\FileCopyCallback.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PowerOnOffLogoEnum.cs">
+      <Link>Enterprise\Scripts\Enums\PowerOnOffLogoEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\MarkerInfoCallback.cs">
+      <Link>Enterprise\Scripts\Interfaces\MarkerInfoCallback.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\HomeEventEnum.cs">
+      <Link>Enterprise\Scripts\Enums\HomeEventEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\SystemInfoEnum.cs">
+      <Link>Enterprise\Scripts\Enums\SystemInfoEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PoseErrorTypeEnum.cs">
+      <Link>Enterprise\Scripts\Enums\PoseErrorTypeEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\ControllerPairTimeEnum.cs">
+      <Link>Enterprise\Scripts\Enums\ControllerPairTimeEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Plugin\PXR_EnterpriseTools.cs">
+      <Link>Enterprise\Scripts\Plugin\PXR_EnterpriseTools.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Interfaces\BoolCallback.cs">
+      <Link>Enterprise\Scripts\Interfaces\BoolCallback.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PICOCastOptionValueEnum.cs">
+      <Link>Enterprise\Scripts\Enums\PICOCastOptionValueEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PackageControlEnum.cs">
+      <Link>Enterprise\Scripts\Enums\PackageControlEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Plugin\PXR_SystemPlugin.cs">
+      <Link>Enterprise\Scripts\Plugin\PXR_SystemPlugin.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\SystemFunctionSwitchEnum.cs">
+      <Link>Enterprise\Scripts\Enums\SystemFunctionSwitchEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\SwitchEnum.cs">
+      <Link>Enterprise\Scripts\Enums\SwitchEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Enums\PICOCastOptionOrStatusEnum.cs">
+      <Link>Enterprise\Scripts\Enums\PICOCastOptionOrStatusEnum.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\Enterprise\Scripts\Struct\RGBCameraStruct.cs">
+      <Link>Enterprise\Scripts\Struct\RGBCameraStruct.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -420,6 +420,18 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>E:\unity\2021.3.22f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -429,35 +441,23 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>E:\unity\2021.3.22f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

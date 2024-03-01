@@ -56,14 +56,8 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioListener.cs">
-      <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioListener.cs</Link>
-    </Compile>
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs</Link>
-    </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_Context.cs">
-      <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_Context.cs</Link>
     </Compile>
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs</Link>
@@ -74,11 +68,17 @@
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_Types.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_Types.cs</Link>
     </Compile>
-    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_API.cs">
-      <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_API.cs</Link>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_Context.cs">
+      <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_Context.cs</Link>
     </Compile>
     <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneMaterial.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneMaterial.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_API.cs">
+      <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_API.cs</Link>
+    </Compile>
+    <Compile Include="E:\Vr_space\PICO Unity Integration SDK 240\SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioListener.cs">
+      <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioListener.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -345,6 +345,18 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>E:\unity\2021.3.22f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -354,35 +366,23 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>E:\unity\2021.3.22f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
