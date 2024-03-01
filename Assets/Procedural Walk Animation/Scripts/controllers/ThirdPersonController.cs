@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-#if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
+﻿ using UnityEngine;
+#if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
 
@@ -9,7 +9,7 @@ using UnityEngine.InputSystem;
 namespace StarterAssets
 {
     [RequireComponent(typeof(CharacterController))]
-#if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
+#if ENABLE_INPUT_SYSTEM 
     [RequireComponent(typeof(PlayerInput))]
 #endif
     public class ThirdPersonController : MonoBehaviour
@@ -22,7 +22,7 @@ namespace StarterAssets
         public float SprintSpeed = 5.335f;
 
         [Tooltip("How fast the character turns to face movement direction")]
-        [Range(0.0f, 1f)]
+        [Range(0.0f, 0.3f)]
         public float RotationSmoothTime = 0.12f;
 
         [Tooltip("Acceleration and deceleration")]
@@ -98,7 +98,7 @@ namespace StarterAssets
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
 
-#if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
+#if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
 #endif
         private Animator _animator;
@@ -114,7 +114,7 @@ namespace StarterAssets
         {
             get
             {
-#if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
+#if ENABLE_INPUT_SYSTEM
                 return _playerInput.currentControlScheme == "KeyboardMouse";
 #else
 				return false;
@@ -139,7 +139,7 @@ namespace StarterAssets
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
-#if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
+#if ENABLE_INPUT_SYSTEM 
             _playerInput = GetComponent<PlayerInput>();
 #else
 			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");

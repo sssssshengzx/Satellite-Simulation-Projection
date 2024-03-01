@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.PICO.Editor", "Uni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pico.Spatializer.Editor", "Pico.Spatializer.Editor.csproj", "{B5312372-A8B4-C504-D300-15B8DE5CE3CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{F37F56A8-9A45-FC4D-7B89-859B82A95ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{B5312372-A8B4-C504-D300-15B8DE5CE3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5312372-A8B4-C504-D300-15B8DE5CE3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5312372-A8B4-C504-D300-15B8DE5CE3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37F56A8-9A45-FC4D-7B89-859B82A95ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37F56A8-9A45-FC4D-7B89-859B82A95ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37F56A8-9A45-FC4D-7B89-859B82A95ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37F56A8-9A45-FC4D-7B89-859B82A95ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
