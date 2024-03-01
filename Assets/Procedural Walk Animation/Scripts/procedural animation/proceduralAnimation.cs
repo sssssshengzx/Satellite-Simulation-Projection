@@ -294,6 +294,22 @@ public class proceduralAnimation : MonoBehaviour
             Gizmos.DrawWireSphere(transform.TransformPoint(defaultLegPositions[i]), sphereCastRadius);
         }
     }
-}
+        public float StepHeight
+        {
+            get { return stepHeight; }
+            set
+            {
+                stepHeight = value;
+            }
+        }
+        public float StepDistance
+        {
+            get { return stepDistance; }
+            set
+            {
+                stepDistance = value;
+            }
+        }
+    }
 
 }

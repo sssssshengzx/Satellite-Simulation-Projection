@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Procedural Walk Animation\Scripts\procedural animation\GroundAlliment.cs" />
-    <Compile Include="Assets\Scripts\WalkDemonstrateTest.cs" />
+    <Compile Include="Assets\Scripts\ProcedualAnimationDemoScripts\WalkDemonstrateTest.cs" />
     <Compile Include="Assets\Nebula Pack\Skybox Dark Nebula\Scripts\SmoothCameraOrbit.cs" />
     <Compile Include="Assets\Procedural Walk Animation\InputSystem\PlayerIputActions.cs" />
     <Compile Include="Assets\Procedural Walk Animation\Scripts\procedural animation\TargetPoint.cs" />
@@ -77,6 +77,7 @@
     <Compile Include="Assets\Procedural Walk Animation\Scripts\procedural animation\proceduralAnimation.cs" />
     <Compile Include="Assets\Procedural Walk Animation\Scripts\RTS_Movement\RTSMovment.cs" />
     <Compile Include="Assets\Procedural Walk Animation\Scripts\DemoSceneScripts\follow.cs" />
+    <Compile Include="Assets\Scripts\ProcedualAnimationDemoScripts\SliderControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Procedural Walk Animation\TextMesh Pro\Shaders\TMPro.cginc" />
